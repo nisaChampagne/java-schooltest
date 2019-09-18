@@ -12,4 +12,9 @@ public interface CourseService
     ArrayList<CountStudentsInCourses> getCountStudentsInCourse();
 
     void delete(long id);
+
+////adding these in populates my seeddata to be error free
+    Course findCourseById(long id);
+
+    Course save(Course course);
 }
